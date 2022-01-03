@@ -2,6 +2,8 @@
 
 Minimal repro of a `$page.url.pathname` bug when building a SvelteKit app using the static adapter.
 
+**UPDATE**: This bug has since been fixed in [@sveltejs/kit version 1.0.0-next.213](https://github.com/sveltejs/kit/blob/6c9b73977f7cb54902c55ccc395510b7ac3eb35b/packages/kit/CHANGELOG.md#100-next213).
+
 ## Repro steps
 
 ### 1) Run `yarn dev`
